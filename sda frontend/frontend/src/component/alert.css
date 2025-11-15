@@ -1,0 +1,67 @@
+/* Alert.css */
+.cubg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("C:\Users\sahit\Downloads\alertimg.webp"); /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Box styling for alerts */
+.alert-box {
+    background-color: rgba(17, 93, 152, 0.8); /* Semi-transparent background for contrast */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(10, 85, 198, 0.344);
+    text-align: center;
+    width: 40%; /* Responsive width */
+    max-width: 1000px; /* Maximum width */
+}
+
+/* Heading for alerts */
+.alert-box h2 {
+    font-size: 48px; /* Adjusted heading size */
+    color: #f50f0f; /* Red color for alerts */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px 20px;
+    background-color: rgba(233, 196, 15, 0.9); /* Darker background for heading */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Unordered list styling for alerts */
+.alert-box ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 40px; /* Remove padding */
+}
+
+/* Individual alert item styling */
+.alert-box ul li {
+    font-size: 30px; /* Reduced font size for better readability */
+    padding: 15px 20px;
+    background-color: #f40a0a; /* Background color for alerts */
+    color: #f8f4f4; /* Light text color for contrast */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px 0; /* Margin between items */
+}
+
+/* Back button styling */
+.back-button {
+    width: 60%;
+    padding: 15px;
+    background-color: #4e3d22; /* Button background color */
+    color: #1be01e; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above button */
+    font-size: 24px; /* Font size for button */
+}
+
+/* Back button hover effect */
+.back-button:hover {
+    background-color: #3b2e1a; /* Darker background on hover */
+}
